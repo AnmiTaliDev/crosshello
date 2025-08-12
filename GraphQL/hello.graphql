@@ -1,0 +1,9 @@
+query {
+  hello
+}
+
+# Schema:
+# type Query {
+#   hello: String
+# }
+# Returns: "Hello, World!"

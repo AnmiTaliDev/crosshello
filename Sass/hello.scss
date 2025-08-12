@@ -1,0 +1,7 @@
+$message: "Hello, World!";
+
+body {
+    &::before {
+        content: $message;
+    }
+}

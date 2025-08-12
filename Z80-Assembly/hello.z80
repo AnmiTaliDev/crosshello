@@ -1,0 +1,21 @@
+    org 0x8000
+
+start:
+    ld hl, hello_str
+    call print_string
+    ret
+
+print_string:
+    ld a, (hl)
+    or a
+    ret z
+    call print_char
+    inc hl
+    jr print_string
+
+print_char:
+    out (0x01), a
+    ret
+
+hello_str:
+    db "Hello, World!", 0x0A, 0
