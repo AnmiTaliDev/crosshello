@@ -1,272 +1,306 @@
 # CrossHello
 
-Коллекция программ "Hello, World!" на различных языках программирования и не только.
+A collection of "Hello, World!" programs in various programming languages and beyond.
 
-## 📋 Содержание
+## Contents
 
-### Языки программирования общего назначения
+### General-Purpose Programming Languages
 
-| Язык         | Описание                                  |
+| Language     | Description                               |
 |--------------|-------------------------------------------|
-| [Ada](./Ada) | Строго типизированный язык программирования |
-| [APL](./APL) | Массивно-ориентированный язык программирования |
-| [BASIC](./BASIC) | Классический язык для начинающих      |
-| [C](./C) | Один из самых влиятельных языков программирования |
-| [C-no-libc](./C-no-libc) | C без стандартной библиотеки        |
-| [C#](./C%23) | Объектно-ориентированный язык от Microsoft |
-| [C++](./C%2B%2B) | Расширенная версия языка C            |
-| [Carbon](./Carbon) | Экспериментальный язык от Google      |
-| [Clojure](./Clojure) | Функциональный Lisp на JVM           |
-| [CoffeeScript](./CoffeeScript) | Компилируемый в JavaScript язык |
-| [COBOL](./COBOL) | Язык для бизнес-приложений            |
-| [Crystal](./Crystal) | Быстрый язык с Ruby-подобным синтаксисом |
-| [D](./D) | Современный язык системного программирования |
-| [Dart](./Dart) | Язык от Google для Flutter и веб-разработки |
-| [Elixir](./Elixir) | Динамический функциональный язык     |
-| [Erlang](./Erlang) | Язык функционального программирования |
-| [F#](./F%23) | Функциональный язык от Microsoft      |
-| [Fortran](./Fortan) | Один из первых языков высокого уровня |
-| [GNU-Lisp](./GNU-Lisp) | Emacs Lisp диалект                |
-| [Go](./Go) | Язык программирования от Google           |
-| [Haskell](./Haskell) | Чисто функциональный язык          |
-| [J](./J) | Массивно-ориентированный язык программирования |
-| [J#](./J%23) | .NET версия Java от Microsoft         |
-| [Jai](./Jai) | Язык программирования от Джонатана Блоу   |
-| [Java](./Java) | Классический объектно-ориентированный язык |
-| [JavaScript](./JavaScript) | Язык для веб-разработки и не только |
-| [Jaryq](./Jaryq) | Простой, низкоуровневый и удобный язык. |
-| [Julia](./Julia) | Язык для научных и высокопроизводительных вычислений |
-| [K&R-C](./K&R-C) | Классический стиль C по Кернигану и Ритчи |
-| [Kotlin](./Kotlin) | Язык для Android и серверных приложений |
-| [Lisp](./Lisp) | Один из старейших функциональных языков |
-| [Lua](./Lua) | Лёгкий встраиваемый скриптовый язык      |
-| [MicroPython](./MicroPython) | Оптимизированная версия Python для микроконтроллеров |
-| [MISRA-C](./MISRA-C) | Стандарт безопасного программирования на C |
-| [Nim](./Nim) | Эффективный язык системного программирования |
-| [Objective-C](./Objective-C) | Объектно-ориентированное расширение C |
-| [Objective-C++](./Objective-C++) | Гибрид Objective-C и C++           |
-| [OCaml](./OCaml) | Функциональный язык с объектной системой |
-| [Odin](./Odin) | Современный системный язык программирования |
-| [Pascal](./Pascal) | Язык для обучения программированию  |
-| [Perl](./Perl) | Универсальный скриптовый язык          |
-| [PHP](./PHP) | Популярный язык для веб-разработки       |
-| [Prolog](./Prolog) | Логический язык программирования    |
-| [Python](./Python) | Универсальный язык программирования  |
-| [R](./R) | Язык для статистики и анализа данных        |
-| [RAD](./RAD) | Быстрая разработка приложений (Rapid Application Development) |
-| [Raku](./Raku) | Современная версия Perl (ранее Perl 6) |
-| [Ruby](./Ruby) | Элегантный объектно-ориентированный язык |
-| [Rust](./Rust) | Системный язык программирования с безопасностью памяти |
-| [Scala](./Scala) | Язык для масштабируемого программирования |
-| [Scheme](./Scheme) | Минималистичный диалект Lisp        |
-| [Smalltalk](./Smalltalk) | Объектно-ориентированный язык с сообщениями |
-| [Swift](./Swift) | Язык для iOS и macOS                  |
-| [Tcl](./Tcl) | Скриптовый язык для автоматизации     |
-| [TypeScript](./TypeScript) | Расширение JavaScript с типизацией |
-| [V](./V) | Простой и быстрый компилируемый язык  |
-| [Vala](./Vala) | Объектно-ориентированный язык для GNOME |
-| [Zig](./Zig) | Современный язык системного программирования |
+| [Ada](./Ada) | Strongly typed programming language |
+| [Agda](./Agda) | Dependently typed functional language |
+| [APL](./APL) | Array-oriented programming language |
+| [BASIC](./BASIC) | Classic beginner programming language |
+| [C](./C) | One of the most influential programming languages |
+| [C-no-libc](./C-no-libc) | C without the standard library |
+| [C#](./C%23) | Object-oriented language from Microsoft |
+| [C++](./C%2B%2B) | Extended version of C |
+| [Carbon](./Carbon) | Experimental language from Google |
+| [Clojure](./Clojure) | Functional Lisp on the JVM |
+| [CoffeeScript](./CoffeeScript) | Language that compiles to JavaScript |
+| [Coq](./Coq) | Proof assistant and functional language |
+| [COBOL](./COBOL) | Language for business applications |
+| [Crystal](./Crystal) | Fast language with Ruby-like syntax |
+| [D](./D) | Modern system programming language |
+| [Dart](./Dart) | Language from Google for Flutter and web development |
+| [Delphi](./Delphi) | Object Pascal dialect for rapid development |
+| [Elm](./Elm) | Functional language for web frontends |
+| [Elixir](./Elixir) | Dynamic functional language |
+| [Erlang](./Erlang) | Functional programming language |
+| [F#](./F%23) | Functional language from Microsoft |
+| [Forth](./Forth) | Stack-based programming language |
+| [Fortran](./Fortan) | One of the first high-level languages |
+| [GNU-Lisp](./GNU-Lisp) | Emacs Lisp dialect |
+| [Go](./Go) | Programming language from Google |
+| [Haskell](./Haskell) | Purely functional language |
+| [HolyC](./HolyC) | Language developed for TempleOS |
+| [J](./J) | Array-oriented programming language |
+| [J#](./J%23) | .NET version of Java from Microsoft |
+| [Jai](./Jai) | Programming language by Jonathan Blow |
+| [Java](./Java) | Classic object-oriented language |
+| [JavaScript](./JavaScript) | Language for web development and beyond |
+| [Jaryq](./Jaryq) | Simple, low-level and convenient language |
+| [Julia](./Julia) | Language for scientific and high-performance computing |
+| [K&R-C](./K&R-C) | Classic C style by Kernighan and Ritchie |
+| [Kotlin](./Kotlin) | Language for Android and server applications |
+| [Lisp](./Lisp) | One of the oldest functional languages |
+| [Lua](./Lua) | Lightweight embeddable scripting language |
+| [Luau](./Luau) | Typed Lua dialect used in Roblox |
+| [MicroPython](./MicroPython) | Optimized version of Python for microcontrollers |
+| [MISRA-C](./MISRA-C) | Safe C programming standard |
+| [Nim](./Nim) | Efficient system programming language |
+| [Objective-C](./Objective-C) | Object-oriented extension of C |
+| [Objective-C++](./Objective-C++) | Hybrid of Objective-C and C++ |
+| [OCaml](./OCaml) | Functional language with an object system |
+| [Odin](./Odin) | Modern system programming language |
+| [Pascal](./Pascal) | Language for teaching programming |
+| [Perl](./Perl) | General-purpose scripting language |
+| [PHP](./PHP) | Popular language for web development |
+| [Prolog](./Prolog) | Logic programming language |
+| [Python](./Python) | General-purpose programming language |
+| [R](./R) | Language for statistics and data analysis |
+| [RAD](./RAD) | Rapid Application Development |
+| [Raku](./Raku) | Modern version of Perl (formerly Perl 6) |
+| [Ruby](./Ruby) | Elegant object-oriented language |
+| [Rust](./Rust) | System programming language with memory safety |
+| [Scala](./Scala) | Language for scalable programming |
+| [Scheme](./Scheme) | Minimalist Lisp dialect |
+| [Solidity](./Solidity) | Smart contract language for Ethereum |
+| [Smalltalk](./Smalltalk) | Message-passing object-oriented language |
+| [Swift](./Swift) | Language for iOS and macOS |
+| [Tcl](./Tcl) | Scripting language for automation |
+| [TypeScript](./TypeScript) | JavaScript extension with types |
+| [V](./V) | Simple and fast compiled language |
+| [Vala](./Vala) | Object-oriented language for GNOME |
+| [WebAssembly](./WebAssembly) | Binary instruction format for stack-based VMs |
+| [Zig](./Zig) | Modern system programming language |
 
-### Эзотерические языки
+### Esoteric Languages
 
-| Язык         | Описание                                  |
+| Language     | Description                               |
 |--------------|-------------------------------------------|
-| [ArnoldC](./ArnoldC) | Язык программирования в стиле Арнольда Шварценеггера |
-| [Brainfuck](./Brainfuck) | Минималистичный эзотерический язык |
-| [LOLCODE](./LOLCODE) | Язык в стиле интернет-мемов        |
-| [Malbolge](./Malbolge) | Самый трудный для программирования язык |
-| [Ook](./Ook) | Вариант Brainfuck для орангутанов        |
-| [Whitespace](./Whitespace) | Язык, использующий только пробелы |
-| [Chef](./Chef) | Программы выглядят как рецепты          |
-| [Shakespeare-Programming-Language](./Shakespeare-Programming-Language) | Код выглядит как пьеса |
+| [ArnoldC](./ArnoldC) | Programming language in the style of Arnold Schwarzenegger |
+| [Brainfuck](./Brainfuck) | Minimalist esoteric language |
+| [LOLCODE](./LOLCODE) | Language in the style of internet memes |
+| [Malbolge](./Malbolge) | The hardest language to program in |
+| [Ook](./Ook) | Brainfuck variant for orangutans |
+| [Whitespace](./Whitespace) | Language that uses only whitespace |
+| [Chef](./Chef) | Programs look like recipes |
+| [Shakespeare-Programming-Language](./Shakespeare-Programming-Language) | Code looks like a play |
 
-### Скриптовые языки и Shell
+### Scripting Languages and Shells
 
-| Язык         | Описание                                  |
+| Language     | Description                               |
 |--------------|-------------------------------------------|
-| [AppleScript](./AppleScript) | Язык скриптов для macOS            |
-| [Batch](./Batch) | Скрипты для Windows-командной строки   |
-| [Csh](./Csh) | C shell для Unix/Linux                 |
-| [FISH](./FISH) | Дружелюбная интерактивная оболочка      |
-| [PowerShell](./PowerShell) | Мощный скриптовый язык для Windows |
-| [Shell](./Shell) | Скрипты для Unix/Linux оболочки       |
-| [Tcsh](./Tcsh) | Enhanced C shell                       |
+| [Ansible](./Ansible) | IT automation and configuration management |
+| [AppleScript](./AppleScript) | Scripting language for macOS |
+| [AutoHotkey](./AutoHotkey) | Automation scripting language for Windows |
+| [Batch](./Batch) | Scripts for the Windows command line |
+| [Csh](./Csh) | C shell for Unix/Linux |
+| [FISH](./FISH) | Friendly interactive shell |
+| [PowerShell](./PowerShell) | Powerful scripting language for Windows |
+| [Shell](./Shell) | Scripts for Unix/Linux shell |
+| [Tcsh](./Tcsh) | Enhanced C shell |
 
-### Форматы разметки и документации
+### Markup and Documentation Formats
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [AsciiDoc](./AsciiDoc) | Мощный формат для написания документации |
-| [HTML](./HTML) | Язык разметки гипертекста                |
-| [LaTeX](./LaTeX) | Система вёрстки документов            |
-| [MD](./MD) | Markdown, облегчённый язык разметки         |
-| [reStructuredText](./reStructuredText) | Формат документации Python |
-| [SGML](./SGML) | Стандартный обобщённый язык разметки     |
-| [TeX](./TeX) | Система вёрстки документов                |
-| [TXT](./TXT) | Обычный текстовый формат                  |
-| [XHTML](./XHTML) | Расширяемый язык разметки гипертекста   |
-| [XML](./XML) | Расширяемый язык разметки                 |
+| [AsciiDoc](./AsciiDoc) | Powerful format for writing documentation |
+| [HTML](./HTML) | HyperText Markup Language |
+| [LaTeX](./LaTeX) | Document typesetting system |
+| [MD](./MD) | Markdown, a lightweight markup language |
+| [reStructuredText](./reStructuredText) | Python documentation format |
+| [SGML](./SGML) | Standard Generalized Markup Language |
+| [TeX](./TeX) | Document typesetting system |
+| [TXT](./TXT) | Plain text format |
+| [XHTML](./XHTML) | Extensible HyperText Markup Language |
+| [XML](./XML) | Extensible Markup Language |
 
-### Форматы данных и конфигурации
+### Data and Configuration Formats
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [CSV](./CSV) | Формат табличных данных                   |
-| [HEX](./HEX) | Шестнадцатеричное представление данных    |
-| [INI](./INI) | Формат конфигурационных файлов            |
-| [JSON](./JSON) | Формат обмена данными                   |
-| [TOML](./TOML) | Минималистичный формат конфигурации     |
-| [YAML](./YAML) | Человекочитаемый формат сериализации    |
+| [CSV](./CSV) | Tabular data format |
+| [HEX](./HEX) | Hexadecimal data representation |
+| [INI](./INI) | Configuration file format |
+| [JSON](./JSON) | Data interchange format |
+| [TOML](./TOML) | Minimalist configuration format |
+| [YAML](./YAML) | Human-readable serialization format |
 
-### Системы сборки и конфигурация
+### Build Systems and Configuration
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [Dockerfile](./Dockerfile) | Конфигурация Docker контейнеров     |
-| [Makefile](./Makefile) | Система автоматизации сборки          |
+| [Dockerfile](./Dockerfile) | Docker container configuration |
+| [Makefile](./Makefile) | Build automation system |
 
-### Веб-технологии и стили
+### Web Technologies and Styles
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [CSS](./CSS) | Каскадные таблицы стилей                  |
-| [Less](./Less) | CSS препроцессор с переменными            |
-| [Sass](./Sass) | Расширение CSS с переменными и функциями |
-| [Stylus](./Stylus) | Выразительный CSS препроцессор          |
-| [Svelte](./Svelte) | Компилируемый веб-фреймворк             |
+| [CSS](./CSS) | Cascading Style Sheets |
+| [Less](./Less) | CSS preprocessor with variables |
+| [Sass](./Sass) | CSS extension with variables and functions |
+| [Stylus](./Stylus) | Expressive CSS preprocessor |
+| [Svelte](./Svelte) | Compiled web framework |
 
-### Assembly языки
+### Assembly Languages
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [6502-Assembly](./6502-Assembly) | Assembly для процессора 6502              |
-| [8051-Assembly](./8051-Assembly) | Assembly для микроконтроллера 8051      |
-| [AT&T-ASM](./AT&T-ASM) | Assembly в синтаксисе AT&T                |
-| [AVR-Assembly](./AVR-Assembly) | Assembly для микроконтроллеров AVR        |
-| [AArch64-Assembly](./AArch64-Assembly) | Assembly для 64-битной ARM архитектуры |
-| [ARM-Assembly](./ARM-Assembly) | Assembly для ARM архитектуры       |
-| [ARMv7-Assembly](./ARMv7-Assembly) | Assembly для ARMv7 архитектуры    |
-| [ARMv8-Assembly](./ARMv8-Assembly) | Assembly для ARMv8 архитектуры    |
-| [C-SKY-Assembly](./C-SKY-Assembly) | Assembly для C-SKY архитектуры   |
-| [FASM](./FASM) | Flat Assembler                            |
-| [GAS](./GAS) | GNU Assembler                             |
-| [IA-64-Assembly](./IA-64-Assembly) | Assembly для Intel Itanium архитектуры |
-| [Intel-Assembly](./Intel-Assembly) | Assembly для Intel x86 архитектуры |
-| [MASM](./MASM) | Microsoft Macro Assembler                 |
-| [MIPS-Assembly](./MIPS-Assembly) | Assembly для MIPS архитектуры     |
-| [NASM](./NASM) | Netwide Assembler                         |
-| [PIC-Assembly](./PIC-Assembly) | Assembly для микроконтроллеров PIC      |
-| [PowerPC-Assembly](./PowerPC-Assembly) | Assembly для PowerPC архитектуры |
-| [RISC-V-Assembly](./RISC-V-Assembly) | Assembly для RISC-V архитектуры |
-| [SPARC-Assembly](./SPARC-Assembly) | Assembly для SPARC архитектуры   |
-| [x86-64-Assembly](./x86-64-Assembly) | Assembly для 64-битной x86 архитектуры |
-| [Z80-Assembly](./Z80-Assembly) | Assembly для процессора Z80        |
+| [6502-Assembly](./6502-Assembly) | Assembly for the 6502 processor |
+| [8051-Assembly](./8051-Assembly) | Assembly for the 8051 microcontroller |
+| [AT&T-ASM](./AT&T-ASM) | Assembly in AT&T syntax |
+| [AVR-Assembly](./AVR-Assembly) | Assembly for AVR microcontrollers |
+| [AArch64-Assembly](./AArch64-Assembly) | Assembly for 64-bit ARM architecture |
+| [ARM-Assembly](./ARM-Assembly) | Assembly for ARM architecture |
+| [ARMv7-Assembly](./ARMv7-Assembly) | Assembly for ARMv7 architecture |
+| [ARMv8-Assembly](./ARMv8-Assembly) | Assembly for ARMv8 architecture |
+| [C-SKY-Assembly](./C-SKY-Assembly) | Assembly for C-SKY architecture |
+| [FASM](./FASM) | Flat Assembler |
+| [GAS](./GAS) | GNU Assembler |
+| [IA-64-Assembly](./IA-64-Assembly) | Assembly for Intel Itanium architecture |
+| [Intel-Assembly](./Intel-Assembly) | Assembly for Intel x86 architecture |
+| [MASM](./MASM) | Microsoft Macro Assembler |
+| [MIPS-Assembly](./MIPS-Assembly) | Assembly for MIPS architecture |
+| [NASM](./NASM) | Netwide Assembler |
+| [PIC-Assembly](./PIC-Assembly) | Assembly for PIC microcontrollers |
+| [PowerPC-Assembly](./PowerPC-Assembly) | Assembly for PowerPC architecture |
+| [RISC-5-Assembly](./RISC-5-Assembly) | Assembly for RISC-5 architecture |
+| [RISC-V-Assembly](./RISC-V-Assembly) | Assembly for RISC-V architecture |
+| [SPARC-Assembly](./SPARC-Assembly) | Assembly for SPARC architecture |
+| [x86-64-Assembly](./x86-64-Assembly) | Assembly for 64-bit x86 architecture |
+| [Z80-Assembly](./Z80-Assembly) | Assembly for the Z80 processor |
 
-### Языки описания аппаратуры
+### Intermediate Representations
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [Chisel](./Chisel) | Язык описания аппаратуры на основе Scala |
-| [Lava](./Lava) | Функциональный язык описания аппаратуры на Haskell |
-| [MyHDL](./MyHDL) | Язык описания аппаратуры на основе Python |
-| [SystemVerilog](./SystemVerilog) | Расширенная версия Verilog |
-| [VHDL](./VHDL) | Язык описания аппаратуры                |
-| [Verilog](./Verilog) | Язык описания и верификации аппаратуры |
+| [LLVM-IR](./LLVM-IR) | LLVM Intermediate Representation |
 
-### Языки запросов
+### Hardware Description Languages
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [GraphQL](./GraphQL) | Язык запросов для API                 |
-| [SQL](./SQL) | Язык структурированных запросов          |
+| [Chisel](./Chisel) | Hardware description language based on Scala |
+| [Lava](./Lava) | Functional hardware description language in Haskell |
+| [MyHDL](./MyHDL) | Hardware description language based on Python |
+| [SystemVerilog](./SystemVerilog) | Extended version of Verilog |
+| [VHDL](./VHDL) | Hardware description language |
+| [Verilog](./Verilog) | Hardware description and verification language |
 
-### Конфигурационные форматы
+### Query Languages
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [HCL](./HCL) | HashiCorp Configuration Language          |
-| [M4](./M4) | Макропроцессор для генерации текста       |
+| [GraphQL](./GraphQL) | Query language for APIs |
+| [KQL](./KQL) | Kusto Query Language for Azure Data Explorer |
+| [SQL](./SQL) | Structured Query Language |
 
-### Кодировки и представления
+### Configuration Formats
 
-| Формат       | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [Base64](./Base64) | Кодировка для представления бинарных данных |
+| [CUE](./CUE) | Configuration language with validation |
+| [HCL](./HCL) | HashiCorp Configuration Language |
+| [M4](./M4) | Macro processor for text generation |
+| [Nix](./Nix) | Purely functional package manager language |
 
-### GUI фреймворки
+### Encodings and Representations
 
-| Фреймворк    | Описание                                  |
+| Format       | Description                               |
 |--------------|-------------------------------------------|
-| [Angular](./GUI/Angular) | Веб-фреймворк от Google               |
-| [Astro](./GUI/Astro) | Статический генератор сайтов              |
-| [Flutter](./GUI/Flutter) | Кроссплатформенный UI фреймворк от Google |
-| [GTK](./GUI/GTK) | GUI фреймворк для Linux и GNOME          |
-| [Next.js](./GUI/Next.js) | React фреймворк для веб-приложений    |
-| [OpenGL](./GUI/OpenGL) | Кроссплатформенный графический API     |
-| [Qt](./GUI/Qt) | Кроссплатформенный C++ GUI фреймворк      |
-| [React](./GUI/React) | Веб-фреймворк для создания интерфейсов  |
-| [Swing](./GUI/Swing) | Стандартный GUI фреймворк для Java      |
-| [Tkinter](./GUI/Tkinter) | Стандартный GUI фреймворк для Python   |
-| [Vue](./GUI/Vue) | Прогрессивный JavaScript фреймворк        |
-| [Vulkan](./GUI/Vulkan) | Современный низкоуровневый графический API |
-| [WinForms](./GUI/WinForms) | GUI фреймворк для Windows .NET        |
-| [WPF](./GUI/WPF) | Современный GUI фреймворк для Windows     |
+| [Base64](./Base64) | Encoding for binary data representation |
 
-### Игровые движки
+### GUI Frameworks
 
-| Движок       | Описание                                  |
+| Framework    | Description                               |
 |--------------|-------------------------------------------|
-| [LibGDX](./LibGDX) | Кроссплатформенный игровой фреймворк для Java |
+| [Angular](./GUI/Angular) | Web framework from Google |
+| [Astro](./GUI/Astro) | Static site generator |
+| [Flutter](./GUI/Flutter) | Cross-platform UI framework from Google |
+| [GTK](./GUI/GTK) | GUI framework for Linux and GNOME |
+| [Next.js](./GUI/Next.js) | React framework for web applications |
+| [OpenGL](./GUI/OpenGL) | Cross-platform graphics API |
+| [Qt](./GUI/Qt) | Cross-platform C++ GUI framework |
+| [React](./GUI/React) | Web framework for building interfaces |
+| [Swing](./GUI/Swing) | Standard GUI framework for Java |
+| [Tkinter](./GUI/Tkinter) | Standard GUI framework for Python |
+| [Vue](./GUI/Vue) | Progressive JavaScript framework |
+| [Vala-GUI](./Vala-GUI) | GTK GUI using Vala |
+| [Vulkan](./GUI/Vulkan) | Modern low-level graphics API |
+| [WinForms](./GUI/WinForms) | GUI framework for Windows .NET |
+| [WPF](./GUI/WPF) | Modern GUI framework for Windows |
 
-### Прочее
+### Scientific and Domain-Specific
 
-| Элемент      | Описание                                  |
+| Language     | Description                               |
 |--------------|-------------------------------------------|
-| [Binary](./Binary) | Бинарный формат                      |
-| [Morse](./Morse) | Код Морзе                             |
+| [MATLAB](./MATLAB) | Language for numerical computing |
+| [Mathematica](./Mathematica) | Language for symbolic mathematics |
+| [Octave](./Octave) | Open-source MATLAB-compatible language |
+| [Wolfram](./Wolfram) | Wolfram Language for symbolic computation |
+
+### Game Engines
+
+| Engine       | Description                               |
+|--------------|-------------------------------------------|
+| [LibGDX](./LibGDX) | Cross-platform game framework for Java |
+| [Pico-8](./Pico-8) | Fantasy console with Lua-based language |
+
+### Miscellaneous
+
+| Item         | Description                               |
+|--------------|-------------------------------------------|
+| [Able](./Able) | Simple BASIC dialect |
+| [Binary](./Binary) | Binary format |
+| [Morse](./Morse) | Morse code |
+| [NVMA](./NVMA) | NVM Assembly language |
+| [Perano](./Perano) | Simple systems programming language |
 
 
-## 🚀 Запуск примеров
+## Running Examples
 
-Каждый пример содержит простую программу, выводящую "Hello, World!". В каждой директории находится файл с исходным кодом и, если необходимо, инструкции по компиляции и запуску.
+Each example contains a simple program that prints "Hello, World!". Each directory contains a source file and, if necessary, instructions for compiling and running it.
 
-## 📝 Как внести свой вклад
+## Contributing
 
-1. Сделайте форк репозитория
-2. Создайте ветку для вашего языка (`git checkout -b add-new-language`)
-3. Добавьте ваш пример
-4. Создайте Pull Request
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-## 📜 Лицензия
+## License
 
-The Unlicense. 
+The Unlicense.
 
-См. файл [LICENSE](./LICENSE) для получения подробной информации.
+See the [LICENSE](./LICENSE) file for details.
 
-## ✨ Участники
+## Contributors
 
-- [AnmiTaliDev](https://github.com/AnmiTaliDev) - Создатель и основной разработчик
+- [AnmiTaliDev](https://github.com/AnmiTaliDev) - Creator and main developer
 
-## 📊 Статистика
+## Statistics
 
-| Категория                        | Количество |
-|----------------------------------|------------|
-| Всего языков и форматов          | 151        |
-| Языков программирования          | 60         |
-| Эзотерических языков             | 8          |
-| Скриптовые языки                 | 7          |
-| Веб-технологии и стили           | 5          |
-| Assembly языки                   | 21         |
-| Языки описания аппаратуры        | 6          |
-| Языки запросов                   | 2          |
-| Форматов разметки и документации | 10         |
-| Форматов данных и конфигурации   | 6          |
-| Конфигурационные форматы         | 2          |
-| Систем сборки и конфигурации     | 2          |
-| Кодировки и представления        | 1          |
-| GUI фреймворки                   | 13         |
-| Игровые движки                   | 1          |
-| Прочее                           | 2          |
+| Category                         | Count |
+|----------------------------------|-------|
+| Total languages and formats      | 177   |
+| Programming languages            | 69    |
+| Esoteric languages               | 8     |
+| Scripting languages              | 9     |
+| Web technologies and styles      | 5     |
+| Assembly languages               | 22    |
+| Intermediate representations     | 1     |
+| Hardware description languages   | 6     |
+| Query languages                  | 3     |
+| Markup and documentation formats | 10    |
+| Data and configuration formats   | 6     |
+| Configuration formats            | 4     |
+| Build systems and configuration  | 2     |
+| Encodings and representations    | 1     |
+| GUI frameworks                   | 15    |
+| Scientific and domain-specific   | 4     |
+| Game engines                     | 2     |
+| Miscellaneous                    | 5     |
 
 ---
-*Создано с ❤️ для сообщества программистов*
+*Created for the programming community*

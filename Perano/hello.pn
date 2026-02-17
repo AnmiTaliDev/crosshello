@@ -1,0 +1,5 @@
+import "stdio"
+
+fn main() {
+    stdio.println("Hello, World!");
+}

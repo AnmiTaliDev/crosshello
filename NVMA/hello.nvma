@@ -1,0 +1,8 @@
+.NVM0
+str "Hello, World!\n"
+
+push 0
+syscall 0x02
+
+push 0
+syscall 0x00
